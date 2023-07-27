@@ -18,7 +18,18 @@
 💻 6.29.23 - 7.4.23
 ```
 
+### 2차 미니프로젝트 기간
+```text
+💻 7.26.23 - 8.2.23
+```
+
 ## ⚙️개발 환경
+### 1차 미니프로젝트
+
+<details>
+<summary>1차 미니프로젝트</summary>
+<div markdown="1">
+    
 ```text
 1. Java17
 2. JDK 17
@@ -28,11 +39,52 @@
 6. Dependency : Spring Web, Srping Boot DevTools, Lombok, Thymeleaf, Validation, Spring Data JPA, SQLite
 7. DB : SQLite
 ```
+</div>
+</details>
 
-## 📝멋사마켄 ERD
-<img width="660" alt="erd" src="https://github.com/CodingScript990/board-springbootBE/assets/70142090/dbcdfe91-2ba5-424f-b1ae-1c35accbc730">
+### 2차 미니프로젝트
 
-## ⭐요구사항
+<details>
+<summary>2차 미니프로젝트</summary>
+<div markdown="1">
+    
+```text
+1. Java17
+2. JDK 17
+3. IDE : Intellj IDEA
+4. Project : Gradle[Groovy]
+5. SpringBoot : 3.1.1
+6. Dependency : Spring Web, Srping Boot DevTools, Lombok, Thymeleaf, Validation, Spring Data JPA, SQLite, Spring Security, jjwt
+7. DB : SQLite
+```
+</div>
+</details>
+
+## 📝멋사마켓 ERD
+
+<details>
+<summary>1차 미니프로젝트</summary>
+<div markdown="1">
+
+<img width="620"  src="https://github.com/CodingScript990/Mini_Project_Lion_Market/assets/70142090/133c0689-8ee3-4ff5-aaf1-fa302c676965">
+
+</div>
+</details>
+
+<details>
+<summary>2차 미니프로젝트</summary>
+<div markdown="1">
+
+<img width="620"  src="">
+
+</div>
+</details>
+
+## 1차 미니프로젝트
+
+<details>
+<summary>⭐요구사항</summary>
+<div markdown="1">
 
 ### 1️⃣ 중고 물품 관리(6.29)
 
@@ -94,7 +146,14 @@
     4. 구매 제안이 확정될 경우, 확정되지 않은 다른 구매 제안의 상태는 모두 거절이 된다.
 ```
 
-## 👨‍💻Development Period
+</div>
+</details>
+
+## 👨‍💻Development Period(1차 미니프로젝트)
+
+<details>
+<summary>Development Period</summary>
+<div markdown="1">
 
 ### 📆 2023.6.29[목]
 1. Project 생성
@@ -129,9 +188,15 @@
     * 구매제안 수정 기능 구현(제안상태) - Update[제안상태 -> 구매제안을 수락했는지를 유효성 검증을 하고, 확정 상태로 등록한 경우 물품 상태도 판매중에서 판매완료로 변경이 되도록 조치]
     * 구매제안 삭제 기능 구현 - Delete[제안 등록한 작성자, 패스워드 유효성 체크 후 등록된 제안이 삭제 되도록 조치]
 
+</div>
+</details>
+
 ## 🦁멋사마켓 결과물🦁
 
-### 1️⃣중고물품 관리
+### 1차 미니프로젝트
+<details>
+<summary> 1️⃣중고물품 관리</summary>
+<div markdown="1">
 
 * 물품등록 - POST /items
 
@@ -271,8 +336,12 @@ password: 1qaz2wsx
     "message": "물품을 삭제했습니다."
 }
 ```
+</div>
+</details>
 
-### 2️⃣중고물품 댓글
+<details>
+<summary> 2️⃣중고물품 댓글</summary>
+<div markdown="1">
 
 * 댓글등록 - POST /items/{itemId}/comments
 
@@ -385,7 +454,12 @@ password: 1qaz2wsx
 }
 ```
 
-### 3️⃣구매제안
+</div>
+</details>
+
+<details>
+<summary>3️⃣구매제안</summary>
+<div markdown="1">
 
 * 구매제안 등록 - POST /items/{itemId}/proposals
 
@@ -523,3 +597,5 @@ password: 1qaz2wsx
     "message": "제안을 삭제했습니다."
 }
 ```
+</div>
+</details>
