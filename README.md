@@ -75,7 +75,7 @@
 <summary>2차 미니프로젝트</summary>
 <div markdown="1">
 
-<img width="620"  src="">
+<img width="620"  src="https://github.com/CodingScript990/Mini_Project_Lion_Market/assets/70142090/4a25aadb-54a1-4f88-b63d-d39360adf445">
 
 </div>
 </details>
